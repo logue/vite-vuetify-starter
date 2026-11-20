@@ -28,16 +28,23 @@ const IGNORE_PATTERNS = [
   '**/.nitro/**',
   '**/.nuxt/**',
   '**/.pnpm/**',
+  '**/.rsdoctor/**',
   '**/.rstack/**',
   '**/.vitest/**',
+  '**/.weangler/**',
   // Test coverage reports.
   '**/coverage/**',
+  '**/e2e/**',
   '**/playwright-report/**',
   '**/reports/**',
   '**/test-results/**',
   // Build artifacts.
   '**/dist/**',
+  '**/docs/**',
+  '**/storybook-static/**',
   '**/target/**',
+  // Wrangler
+  '**/worker-configuration.d.ts',
   // Node modules
   '**/node_modules/**'
 ];

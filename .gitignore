@@ -19,22 +19,27 @@ node_modules/
 .pnpm/crates/
 .rstack/
 !.rstack/hooks/
+.wrangler/
 .vitest/
 
 # Test Report
 coverage/
+e2e/
 playwright-report/
 reports/
 test-results/
 
 # Production / Build output
-target/
 dist/
+docs/
+storybook-static/
+target/
 
 # Environment
 .env
 .env.*
 !.env.example
+.dev.vars
 
 # Lockfiles
 *.lock
@@ -45,7 +50,6 @@ dist/
 # IDE
 .vscode/
 !.vscode/extensions.json
-!.vscode/mcp.json
 !.vscode/settings.json
 
 # Local

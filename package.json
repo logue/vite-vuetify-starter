@@ -1,6 +1,6 @@
 {
   "name": "vite-vuetify-starter",
-  "version": "3.1.1",
+  "version": "3.1.2",
   "private": true,
   "description": "Vue3 Vuetify TypeScript Starter project for Vite.",
   "homepage": "https://github.com/logue/vite-vuetify-starter",
@@ -46,9 +46,9 @@
     "pinia": "^4.1.0",
     "pinia-plugin-persistedstate": "^4.7.1",
     "resize-observer-polyfill": "^1.5.1",
-    "vue": "^3.5.45",
+    "vue": "^3.5.46",
     "vue-router": "^5.5.1",
-    "vuetify": "^4.3.3"
+    "vuetify": "^4.3.4"
   },
   "devDependencies": {
     "@eslint-community/eslint-plugin-eslint-comments": "^4.8.1",
@@ -58,7 +58,7 @@
     "@types/node": "^26.6.6",
     "@vitejs/plugin-vue": "^6.0.11",
     "@vitest/coverage-v8": "catalog:",
-    "@vue/test-utils": "^2.5.1",
+    "@vue/test-utils": "^2.6.0",
     "@vue/tsconfig": "^0.9.1",
     "eslint-config-vuetify": "^4.7.2",
     "eslint-plugin-playwright": "^2.12.2",
@@ -77,9 +77,9 @@
     "vite-plugin-vuetify": "^2.1.3",
     "vite-plus": "catalog:",
     "vitest": "catalog:",
-    "vize": "^0.751.0"
+    "vize": "^0.786.0"
   },
-  "packageManager": "pnpm@12.18.0",
+  "packageManager": "pnpm@12.21.0",
   "stackblitz": {
     "startCommand": "pnpm run test:run"
   }
